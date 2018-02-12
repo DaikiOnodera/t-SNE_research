@@ -59,7 +59,6 @@ def main():
     print("X_PCA:\n{}".format(X_PCA))
     print("X_PCA_real:\n{}".format(X_PCA_real))
     print("X_PCA_imag:\n{}".format(X_PCA_imag))
-    1/0
 
     X_embedded_PCA = pca(X, no_dims=2)
     #X_embedded_TSNE = TSNE(n_components=2, perplexity=perplexity, learning_rate=learning_rate, n_iter=500, method="barnes_hut", verbose=2, y=y).fit_transform(X_PCA)
