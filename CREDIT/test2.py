@@ -50,6 +50,7 @@ def main():
         elif not is_continuous and i!=0:
             X = np.concatenate((X, pd.get_dummies(data[:, i]).values.astype(float)), axis=1)
     print("X:{X.shape}, y:{labels.shape}".format(**locals()))
+    1/0
 
     X = X
     y = labels
